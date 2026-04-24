@@ -1,13 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Web Đồ Án</title>
+    <title>Hệ Điều Hành</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #74ebd5, #ACB6E5);
+            margin: 0;
+        }
+
+        .container {
+            width: 60%;
+            margin: 60px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        .info {
+            text-align: left;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        .info p {
+            margin: 10px 0;
+        }
+
+        .highlight {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+
+        img {
+            width: 320px;
+            border-radius: 12px;
+            margin-top: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .footer {
+            margin-top: 25px;
+            color: gray;
+        }
+
+        .badge {
+            margin-top: 15px;
+            padding: 8px 15px;
+            display: inline-block;
+            background: #2ecc71;
+            color: white;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Xin chào thầy cô 👋</h1>
-    <p>Họ tên: [Tên bạn]</p>
-    <p>Lớp: [Lớp]</p>
-    <p>Môn: Lập trình Web</p>
+
+    <div class="container">
+        <h1>👋 Xin chào thầy cô</h1>
+
+        <div class="badge">Bài nộp Web đã deploy</div>
+
+        <div class="info">
+            <p>Họ tên: <span class="highlight">Lê Nguyễn Trung Nam</span></p>
+            <p>Lớp: <span class="highlight">65K3</span></p>
+            <p>Môn: <span class="highlight">Hệ điều hành</span></p>
+        </div>
+
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Lập trình Web">
+
+        <div class="footer">
+            <p>🌐 Bài nộp sử dụng GitHub + Vercel + Netlify</p>
+        </div>
+    </div>
+
 </body>
 </html>
